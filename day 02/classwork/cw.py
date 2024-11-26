@@ -1,0 +1,2 @@
+print("kakhi")
+print("managazde")
