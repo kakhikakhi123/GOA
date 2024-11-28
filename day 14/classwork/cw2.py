@@ -1,0 +1,23 @@
+print(10 > 5)
+print(20 > 15)
+print(50 > 30)
+print(8 > 3)
+print(100 > 99)
+
+print(5 < 10)
+print(15 < 20)
+print(30 < 50)
+print(3 < 8)
+print(99 < 100)
+
+print(10 == 10)
+print(25 == 25)
+print(100 == 100)
+print(5 == 5)
+print(0 == 0)
+
+print(10 != 5)
+print(20 != 15)
+print(50 != 30)
+print(8 != 3)
+print(99 != 100)
