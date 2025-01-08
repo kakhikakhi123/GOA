@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>საზღვარი პარაგრაფებზე</title>
+    <style>
+        p {
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        /* პირველი პარაგრაფი - სამი კუთვნილებით */
+        #para1 {
+            border-width: 2px; /* საზღვრის სიგრძე */
+            border-style: solid; /* საზღვრის ტიპი */
+            border-color: blue; /* საზღვრის ფერი */
+        }
+
+        /* მეორე პარაგრაფი - ერთი კუთვნილებით */
+        #para2 {
+            border: 2px dashed green; /* საზღვრის სიგრძე, ტიპი და ფერი */
+        }
+
+        /* მესამე პარაგრაფი - ერთი კუთვნილებით */
+        #para3 {
+            border: 3px dotted red; /* საზღვრის სიგრძე, ტიპი და ფერი */
+        }
+
+    </style>
+</head>
+<body>
+
+    <p id="para1">ეს არის პირველი პარაგრაფი, რომელზეც გამოყენებულია სამი საზღვრის კუთვნილება: სიგრძე, ტიპი და ფერი (მაჟორულად ცისფერი).</p>
+    <p id="para2">ეს არის მეორე პარაგრაფი, სადაც საზღვარი დადგმულია მხოლოდ ერთი კუთვნილებით: სიგრძე, ტიპი და ფერი (მაჟორულად მწვანე).</p>
+    <p id="para3">ეს არის მესამე პარაგრაფი, რომელზეც საზღვარი დადგმულია მხოლოდ ერთი კუთვნილებით: სიგრძე, ტიპი და ფერი (მაჟორულად წითელი).</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>საკლასო დავალება</title>
+    <style>
+        /* დივ ბლოკის დიზაინი */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* პარაგრაფების სტილი */
+        p {
+            color: blue;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* ღილაკების სტილი */
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* ღილაკების hover ეფექტი */
+        button:hover {
+            background-color: #333;
+        }
+
+        /* სათაურების სტილი */
+        h1, h2, h3 {
+            border: 3px double red;
+            padding: 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>სათაური 1</h1>
+    <p>ეს არის პირველი პარაგრაფი. ყველა პარაგრაფი ლურჯი ფერის იქნება.</p>
+    <button>ღილაკი 1</button>
+    
+    <h2>სათაური 2</h2>
+    <p>ეს არის მეორე პარაგრაფი. ისევე როგორც ყველა სხვა, ლურჯი ფერისაა.</p>
+    <button>ღილაკი 2</button>
+
+    <h3>სათაური 3</h3>
+    <p>ეს არის მესამე პარაგრაფი. ისიც ლურჯი ფერისაა.</p>
+    <button>ღილაკი 3</button>
+</div>
+
+</body>
+</html>
