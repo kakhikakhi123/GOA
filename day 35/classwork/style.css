@@ -1,0 +1,82 @@
+#para1 {
+    color: #FF5733; /* ტექსტის ფერი */
+    background-color: #F0E68C; /* ფონის ფერი */
+}
+
+#para2 {
+    color: #DAF7A6;
+    background-color: #FFC0CB;
+}
+
+#para3 {
+    color: #581845;
+    background-color: #ADD8E6;
+}
+
+#para4 {
+    color: #C70039;
+    background-color: #90EE90;
+}
+
+#para5 {
+    color: #900C3F;
+    background-color: #FFD700;
+}
+
+#para6 {
+    color: #FF33FF;
+    background-color: #8A2BE2;
+}
+
+#para7 {
+    color: #00FF00;
+    background-color: #FF4500;
+}
+
+#para8 {
+    color: #0000FF;
+    background-color: #FFFF00;
+}
+
+#para9 {
+    color: #8B0000;
+    background-color: #00CED1;
+}
+
+#para10 {
+    color: #FF8C00;
+    background-color: #7FFF00;
+}
+
+#div1 {
+    width: 400px;
+    height: 400px;
+    background-color: #FF0000; /* წითელი ფონი */
+    color: #FFFFFF; /* თეთრი ტექსტი */
+}
+
+#div2 {
+    width: 200px;
+    height: 100px;
+    background-color: #008000; /* მწვანე ფონი */
+    color: #FFFFFF; /* თეთრი ტექსტი */
+}
+
+#div3 {
+    width: 50px;
+    height: 100px;
+    background-color: #0000FF; /* ლურჯი ფონი */
+    color: #FFFFFF; /* თეთრი ტექსტი */
+}
+
+#parent-div {
+    width: 50%;
+    height: 500px;
+    background-color: lightgrey;
+}
+
+#child-div {
+    width: 20%;
+    height: 100px;
+    background-color: grey;
+}

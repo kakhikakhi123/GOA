@@ -1,0 +1,32 @@
+#unique-btn {
+    color: #0000FF; /* ლურჯი ფერი */
+}
+
+.color-btn {
+    color: #FF0000; /* წითელი ფერი */
+}
+
+#block1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 128, 0);
+}
+
+#block2 {
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 255);
+}
+
+#block3 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+}
+
+#block4 {
+    color: rgb(128, 0, 128);
+    background-color: rgb(192, 192, 192);
+}
+
+#block5 {
+    color: rgb(0, 255, 255);
+    background-color: rgb(255, 0, 255);
+}
