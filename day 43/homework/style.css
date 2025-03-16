@@ -1,0 +1,34 @@
+/* Remove bullet points */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style every even list item */
+li:nth-child(even) {
+    background-color: lightgrey;
+}
+
+/* Color every third list item */
+li:nth-child(3n) {
+    color: darkblue;
+}
+
+/* Add a custom emoji as the list icon */
+li {
+    list-style-type: none;
+    padding-left: 20px;
+    text-indent: -20px;
+    position: relative;
+}
+
+li::before {
+    content: "⭐";
+    position: absolute;
+    left: 0;
+}
+
+/* Bold the first and last items */
+li:first-child, li:last-child {
+    font-weight: bold;
+}

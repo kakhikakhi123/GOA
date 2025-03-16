@@ -1,0 +1,56 @@
+/* Example 2: Add Padding to a Div */
+.padded-div {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+/* Example 3: Set Different Padding Values */
+.custom-padding {
+    padding: 10px 20px 30px 40px; /* Top, Right, Bottom, Left */
+    background-color: #e0f7fa;
+    border: 1px solid #008cba;
+}
+
+/* Example 4: Round the Corners of a Box */
+.rounded-box {
+    padding: 20px;
+    background-color: #ffe082;
+    border: 2px solid #ffb300;
+    border-radius: 15px; /* Rounds the corners */
+}
+
+/* Example 5: Add Margins Around a Paragraph */
+.margined-paragraph {
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Example 6: Create a Button with Padding and Border */
+.styled-button {
+    padding: 10px 15px;
+    border: 2px solid #008cba;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.styled-button:hover {
+    background-color: #45a049;
+}
+
+/* Example 7: Adjust Margin Between List Items */
+.spaced-list li {
+    margin-bottom: 10px;
+}
+
+/* Example 8: Use Negative Margins */
+.negative-margin {
+    border: 2px solid #e53935;
+    margin: 20px;
+}
+
+.negative-margin p {
+    margin-top: -10px; /* Moves closer to the border */
+    color: #e53935;
+}

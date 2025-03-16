@@ -1,0 +1,20 @@
+/* 1. Set a custom link color */
+a {
+    color: #4CAF50; /* Custom green color */
+    text-decoration: none; /* Remove the default underline */
+    font-weight: bold; /* Make links bold */
+    font-style: italic; /* Change font style to italic */
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+/* 2. Change link appearance on hover */
+a:hover {
+    text-decoration: underline; /* Add an underline on hover */
+    color: #FF5722; /* Change the link color on hover (custom orange) */
+    background-color: #f0f0f0; /* Add a background color on hover */
+}
+
+/* 3. Style visited links */
+a:visited {
+    color: #9C27B0; /* Different color for visited links (custom purple) */
+}

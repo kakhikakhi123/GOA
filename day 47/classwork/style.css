@@ -1,0 +1,42 @@
+/* Task 1: Div with "Hello World" */
+.hello-div {
+    background-color: lightblue;
+    color: darkblue;
+    padding: 20px 30px 40px 50px;
+    margin: 15px 20px;
+    border: 2px solid black;
+}
+
+/* Task 2: Box with a blue border */
+.blue-box {
+    border: 3px solid blue;
+    width: 200px;
+    height: 100px;
+}
+
+/* Task 3: Three different-colored circles */
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.red-circle {
+    background-color: red;
+}
+
+.green-circle {
+    background-color: green;
+}
+
+.blue-circle {
+    background-color: blue;
+}
+
+/* Task 4: Image with left and bottom borders */
+.bordered-image {
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}

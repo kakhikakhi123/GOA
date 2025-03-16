@@ -1,0 +1,29 @@
+/* Styling the header */
+header {
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+/* Styling the main content */
+main {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Styling the button */
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+

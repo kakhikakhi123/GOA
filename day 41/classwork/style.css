@@ -1,0 +1,19 @@
+/* Default link styles */
+a {
+    color: #0000FF; /* Default link color: blue */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Set initial font size */
+    transition: all 0.3s ease; /* Smooth transition for hover and click effects */
+}
+
+/* Hover effect */
+a:hover {
+    color: #00FF00; /* Change color to green on hover */
+    font-size: 18px; /* Increase font size on hover */
+}
+
+/* Click effect (applied when link is active) */
+a:active {
+    background-color: #000000; /* Change background color to black on click */
+    color: #FFFFFF; /* Change text color to white for contrast */
+}
